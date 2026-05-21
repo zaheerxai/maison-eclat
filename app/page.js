@@ -1,13 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import Nav from '@/components/Nav.js';
-import Footer from '@/components/Footer.js';
-import HomePage from '@/components/HomePage.js';
-import MenuPage from '@/components/MenuPage.js';
-import ReservationsPage from '@/components/ReservationsPage.js';
-import EventsPage from '@/components/EventsPage.js';
-import ContactPage from '@/components/ContactPage.js';
+import Nav from '@/components/Nav';
+import Footer from '@/components/Footer';
+import HomePage from '@/components/HomePage';
+import MenuPage from '@/components/MenuPage';
+import ReservationsPage from '@/components/ReservationsPage';
+import EventsPage from '@/components/EventsPage';
+import ContactPage from '@/components/ContactPage';
 
 export default function Page() {
   const [page, setPage] = useState('home');
